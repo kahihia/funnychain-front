@@ -47,9 +47,9 @@
         "node": "10.x"
      },
    "scripts": {
-    "dev": "node --max_old_space_size=2560 react-scripts-ts start",
-    "start": "node --max_old_space_size=2560 react-scripts-ts start",
-    "build": "node --max_old_space_size=2560 react-scripts-ts build",
+    "dev": "node --max_old_space_size=2560 node_modules/.bin/react-scripts-ts start",
+    "start": "node --max_old_space_size=2560 node_modules/.bin/react-scripts-ts start",
+    "build": "node --max_old_space_size=2560 node_modules/.bin/react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   },
