@@ -40,8 +40,13 @@
     "store": "^2.0.12",
     "suggest-username": "^0.1.2",
     "typeface-roboto": "0.0.54"
-  },
-  "scripts": {
+  }, 
+  "engines": {
+        "yarn": "1.4.0",
+        "npm": "6.2.0",
+        "node": "10.4.0"
+     },
+   "scripts": {
     "dev": "react-scripts-ts start",
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
