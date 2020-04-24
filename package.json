@@ -44,7 +44,7 @@
   "engines": {
         "yarn": "1.4.0",
         "npm": "5.7.1",
-        "node": "10.4.0"
+        "node": "10.x"
      },
    "scripts": {
     "dev": "react-scripts-ts start",
